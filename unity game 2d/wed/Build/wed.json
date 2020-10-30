@@ -1,0 +1,16 @@
+{
+"companyName": "DefaultCompany",
+"productName": "unity game 2d",
+"productVersion": "0.1",
+"dataUrl": "wed.data.unityweb",
+"wasmCodeUrl": "wed.wasm.code.unityweb",
+"wasmFrameworkUrl": "wed.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.4.13f1"
+}
