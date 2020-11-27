@@ -10,7 +10,7 @@ public class car : MonoBehaviour
     // 類型名稱:整數，浮點數，字串，布林值
     // 公開 public 私人 frivate
 
-    [Header ("汽車的cc數"), Tooltip ("cc數")]  // unity中文提示 tooltip 更常提示
+    [Header("汽車的cc數"), Tooltip("cc數")]  // unity中文提示 tooltip 更常提示
     [Range(500, 5000)]   // 可拉式滑桿
     public int cc = 2000;
     public float weight = 1803.5f;   // 小數點必加f
@@ -53,7 +53,7 @@ public class car : MonoBehaviour
     // 處理 滑鼠 鍵盤
     private void Update()
     {
-        print ("我一直在更新");
+        print("我一直在更新");
         drive(0.01f);
     }
 
@@ -79,5 +79,34 @@ public class car : MonoBehaviour
     {
         print("弓箭數量:" + count);
         print("弓箭速度:" + speed);
+    }
+    /// <summary>
+    /// 移動
+    /// </summary>
+    private void Move()
+    {
+
+    }
+    /// <summary>
+    /// 跳躍
+    /// </summary>
+    private void Jump()
+    {
+
+    }
+    /// <summary>
+    /// 開槍
+    /// </summary>
+    private void Fire()
+    {
+
+    }
+    /// <summary>
+    /// 死亡
+    /// </summary>
+    /// <param name="obj">死亡碰到的物件</param>
+    private void dead(string obj)
+    {
+
     }
 }
